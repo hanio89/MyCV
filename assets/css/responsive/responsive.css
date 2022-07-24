@@ -1,21 +1,18 @@
 
 @media screen and (min-width:1200px) {
     /* CSS Rule for PC */
-.page_about__menu {
-    background-color: aqua;
+.page__about__menu {
     left: unset;
-    right: 60px;
-    position: fixed;
+    right: 40px;
 }
 }
 @media screen and (max-width:1200px){
     /* CSS Rule for Tablet */
-    .page_about__sum {
-        margin-top: 120px;
+    .page__about__sum {
+        margin-top: 60px;
         display: block;
     }
-    .page_about__menu {
-        background-color: aqua;
+    .page__about__menu {
         flex-direction: column;
         left: -125px;
         right: unset;
@@ -23,7 +20,7 @@
         transition: 0.5s ease-in-out;
         position: fixed;
     }
-    .page_about__menu:hover {
+    .page__about__menu:hover {
         left: -30px;
     }
     .button {
@@ -31,7 +28,7 @@
         flex-direction: row;
 
     }
-    .page_about__personal {
+    .page__about__personal {
         display: unset;
     }
     .personal__info {
@@ -56,12 +53,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    .a_socialmedia {
+    .a__socialmedia {
         margin-left: 0px;
     }
     .personal__info2 {
         display: unset;
         background: none;
+    }
+    .text__email {
+        overflow: unset;
     }
     .emotion {
         background: #F3F6F6;
@@ -76,18 +76,18 @@
         width: 200px;
         margin-left: 360px;
     }
-    .page_about__overview {
+    .page__about__overview {
         margin-top: 60px;
     }
 }
 @media screen and (max-width: 768px) {  
     /* CSS Rule for Smartphone */
-    .page_about {}
-    .page_about__sum {
-        margin: 60px;
+    .page__about {}
+    .page__about__sum {
+        margin: 60px 60px 60px 0px ;
     }
-    .page_about__menu {}
-    .page_about__personal {}
+    .page__about__menu {}
+    .page__about__personal {}
     .personal__ava {
         margin-left: auto;
         margin-right: auto;
@@ -126,8 +126,11 @@
         margin-left: 160px;
         margin-right: 160px;
     }
-    .page_about__overview {
+    .page__about__overview {
         margin-right: 60px;
+    }
+    .aboutme__text {
+        margin: unset;
     }
     .overview__header {
         width: 100%;
