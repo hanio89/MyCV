@@ -1,18 +1,18 @@
 
 @media screen and (min-width:1200px) {
     /* CSS Rule for PC */
-.page__about__menu {
+.container__nav {
     left: unset;
     right: 40px;
 }
 }
 @media screen and (max-width:1200px){
     /* CSS Rule for Tablet */
-    .page__about__sum {
+    .container__sum {
         margin-top: 60px;
         display: block;
     }
-    .page__about__menu {
+    .container__nav {
         flex-direction: column;
         left: -125px;
         right: unset;
@@ -20,7 +20,7 @@
         transition: 0.5s ease-in-out;
         position: fixed;
     }
-    .page__about__menu:hover {
+    .container__nav:hover {
         left: -30px;
     }
     .button {
@@ -28,22 +28,22 @@
         flex-direction: row;
 
     }
-    .page__about__personal {
+    .container__sidebar {
         display: unset;
     }
-    .personal__info {
+    .sidebar__info {
         margin-left: 40px;
         margin-right: 40px;
         display: unset;
     }
-    .personal__ava {
+    .sidebar__ava {
         margin: -60px 0px 0px -300px;
     }
-    .total__personal {
+    .sidebar__total {
         display: flex;
         flex-direction: column;
     }
-    .personal__info1 {
+    .sidebar__info1 {
         margin: 60px 60px 0px 360px;
         align-items: flex-start;
     }
@@ -56,7 +56,7 @@
     .a__socialmedia {
         margin-left: 0px;
     }
-    .personal__info2 {
+    .sidebar__info2 {
         display: unset;
         background: none;
     }
@@ -72,32 +72,32 @@
     .info2__current {
         margin-left: 360px;
     }
-    .personal__downloadCV {
+    .sidebar__downloadCV {
         width: 200px;
         margin-left: 360px;
     }
-    .page__about__overview {
+    .container__maincontent {
         margin-top: 60px;
     }
 }
 @media screen and (max-width: 768px) {  
     /* CSS Rule for Smartphone */
-    .page__about {}
-    .page__about__sum {
+    .container__total {}
+    .container__sum {
         margin: 60px 60px 60px 0px ;
     }
-    .page__about__menu {}
-    .page__about__personal {}
-    .personal__ava {
+    .container__nav {}
+    .container__sidebar {}
+    .sidebar__ava {
         margin-left: auto;
         margin-right: auto;
     }
-    .personal__info {
+    .sidebar__info {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .personal__info1 {
+    .sidebar__info1 {
         margin-top: 320px;
         margin-left: unset;
         margin-right: unset;
@@ -109,7 +109,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    .personal__info2 {
+    .sidebar__info2 {
         display: unset;
     }
     .sum__info2 {
@@ -122,17 +122,20 @@
         margin-left: 120px;
         margin-right: 120px;
     }
-    .personal__downloadCV {
+    .text__email {
+        overflow: hidden;
+    }
+    .sidebar__downloadCV {
         margin-left: 160px;
         margin-right: 160px;
     }
-    .page__about__overview {
+    .container__maincontent {
         margin-right: 60px;
     }
     .aboutme__text {
         margin: unset;
     }
-    .overview__header {
+    .maincontent__header {
         width: 100%;
         margin: 60px;
 
